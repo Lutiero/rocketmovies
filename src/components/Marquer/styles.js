@@ -1,13 +1,11 @@
 import styled from "styled-components"
 
 export const Container = styled.span`
-  font-size: 1rem;
-  font-weight: 150;
+    font-weight: 400;
 
-  padding: 0.2rem 1.2rem;
-  border-radius: 0.4rem;
-  margin-right: 1.6rem;
+    padding: 1.8rem 2rem;
+    border-radius: 0.8rem;  
 
-  color: ${({ theme }) => theme.COLORS.WHITE};
-  background-color: ${({ theme }) => theme.COLORS.GRAY_100};
+    color: ${({theme}) => theme.COLORS.WHITE};
+    background-color: ${({theme}) => theme.COLORS.GRAY_200};
 `

@@ -33,6 +33,7 @@ export const Form = styled.form`
     
  > main {
      margin-top: 8rem;
+     min-width: 32rem;
  }
 
     > img {
