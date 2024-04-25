@@ -1,3 +1,4 @@
+import React from "react"
 import { Container } from "./style"
 // @ts-ignore
 import PropTypes from "prop-types"
