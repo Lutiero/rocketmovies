@@ -1,8 +1,11 @@
-# React + Vite
+# Curso Fullstack da Rocketseat: Desafio intensivão de React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- RocketMovies é um projeto que permite aos usuários explorar um catálogo de filmes. O projeto é hospedado no GitHub e pode ser clonado e executado localmente usando o comando `git clone`.
 
-Currently, two official plugins are available:
+## Arquivos de estudo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Para executar o projeto, rode no `CMD` ou no `Terminal` o comando abaixo:
+
+```shell
+  git clone https://github.com/Lutiero/rocketmovies.git
+```
