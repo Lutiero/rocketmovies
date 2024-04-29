@@ -3,6 +3,7 @@ import { FiPlus } from "react-icons/fi"
 import { Header } from "../../components/Header"
 import { Button } from "../../components/Button"
 import { MovieItem } from "../../components/MovieItem"
+import { Link } from "react-router-dom"
 
 export function MyMovies() {
   return (
@@ -10,7 +11,9 @@ export function MyMovies() {
       <Header />
       <section>
         <p>Meus filmes</p>
-        <Button title="Adicionar filme" icon={FiPlus}></Button>
+        <Link to="/newmovie">
+          <Button title="Adicionar filme" icon={FiPlus}></Button>
+        </Link>
       </section>
       <MovieItem
         data={{

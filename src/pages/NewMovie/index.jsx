@@ -5,16 +5,17 @@ import { Input } from "../../components/Input/index.jsx"
 import { Textarea } from "../../components/Textarea/index.jsx"
 import { Marquer } from "../../components/Marquer/index.jsx"
 import { Button } from "../../components/Button/"
+import { Link } from "react-router-dom"
 
 export function NewMovie() {
   return (
     <Container>
       <Header />
       <Form>
-        <a href="/">
+        <Link to="/mymovies">
           {" "}
           <FiArrowLeft /> Voltar
-        </a>
+        </Link>
         <h1>Novo filme</h1>
         <div className="input-wrapper">
           <Input placeholder="Título" />
